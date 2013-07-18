@@ -42,6 +42,11 @@ module RenderAnywhere
       {}
     end
 
+    # so that your cookies calls still work
+    def cookies
+      {}
+    end
+
     # and nil request to differentiate between live and offline
     def request
       nil
